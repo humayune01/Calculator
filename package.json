@@ -1,0 +1,24 @@
+{
+  "name": "simple-inquirer-calculator",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.28"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
+  },
+  "bin": {
+    "simple-inquirer-calculator": "bin/index.js"
+  }
+}
